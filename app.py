@@ -7,12 +7,12 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, r2_score
 
 st.set_page_config(
-    page_title="Simulación Monte Carlo Actuarial-FCO vARGAS",
+    page_title="Simulación Monte Carlo Actuarial-FCO VARGAS",
     page_icon="📊",
     layout="wide"
 )
 
-st.title("Simulación Monte Carlo Actuarial-FCO vARGAS")
+st.title("Simulación Monte Carlo Actuarial-FCO VARGAS")
 st.write(
     "Aplicación basada en el notebook de simulación Monte Carlo para estimar pérdidas agregadas, "
     "prima pura, VaR, TVaR, insuficiencia de prima y un modelo predictivo simple."
